@@ -1,0 +1,24 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: posts
+    label: Articles
+    type: collection
+    path: posts
+    format: md
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: date
+        label: Publication date
+        type: date
+      - name: description
+        label: Description
+        type: text
+      - name: body
+        label: Article
+        type: rich-text
