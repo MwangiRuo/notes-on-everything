@@ -7,7 +7,15 @@ content:
     label: Articles
     type: collection
     path: posts
-    format: md
+    format: yaml-frontmatter
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      primary: title
+      fields: [title, date, description]
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
     fields:
       - name: title
         label: Title
@@ -22,3 +30,5 @@ content:
       - name: body
         label: Article
         type: rich-text
+        options:
+          format: markdown
