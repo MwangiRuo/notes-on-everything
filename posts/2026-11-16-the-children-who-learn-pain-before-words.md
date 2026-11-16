@@ -58,7 +58,3 @@ But the weather will change again. And the next time the clouds gather, he will 
 Not because the rain is to blame.
 
 But because nobody has yet taught him that the world can be kinder than it has been.
-
----
-
-*This is a work of fiction informed by the realities of sickle cell disease, harmful traditional practices, stigma and unequal access to healthcare. The characters and events are imagined.*
